@@ -1,0 +1,4 @@
+<!--pages/weather/city/city.wxml-->
+<view wx:for="{{cities}}" bindtap="showLog">
+  {{index}}: {{item.name}}
+</view>
